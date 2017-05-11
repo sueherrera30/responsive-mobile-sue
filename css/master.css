@@ -1,0 +1,56 @@
+            /*general*/
+*{
+  margin: 0 auto;
+  padding: 0 auto;
+}
+html,body{
+  width:100%;
+  height: 100%;
+}
+/*header*/
+.contenedor-navegador{
+  height:15%;
+  background-color:#FAFAD2;
+}
+nav{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+
+}
+a{
+  text-decoration: none;
+  font-size:2em;
+  padding:10%;
+
+}
+li{
+  list-style: none;
+  margin:1%;
+}
+    /*seccion imagen inicial*/
+
+.contenedor-imagen-principal{
+ width:10%;
+}
+img{
+  width:100%
+  display:flex;
+  justify-content: center;
+}
+
+
+
+            /*clases en comun*/
+
+.titulos{
+  font-family: 'Sacramento', cursive;
+  color:#EAB267;
+}
+.textos{
+  font-family: 'Josefin Slab', serif;
+  color:#3E8D8D;
+}
+
+              /*responsive*/
