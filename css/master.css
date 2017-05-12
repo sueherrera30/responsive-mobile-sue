@@ -150,6 +150,9 @@ color:#EAB267;
 font-size:2em;
 margin-left:40%;
 }
+#familia{
+  display: none;
+}
 
 /*seccion footer*/
 footer{
@@ -162,7 +165,6 @@ font-size:2em;
 padding:2%;
 font-family: 'Sacramento', cursive;
 color:#EAB267;
-margin-top:3%;
 }
 
 /*clases en comun*/
@@ -208,12 +210,18 @@ height:30px;
 background-color: #BBFFBB;
 }
 .contenedor-form{
-background-color: #FFCCFF
+background-color: #FFCCFF;
 }
 button{
 margin-left:12%;
 }
 .titulos{
 font-size:150%;
+}
+
+#familia{
+  border-radius:70%;
+  width:20%;
+  display: flex;
 }
 }
