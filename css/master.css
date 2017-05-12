@@ -123,14 +123,21 @@ justify-content:center;
 /*seccion formulario*/
 .contenedor-form{
 width: 100%;
-display: flex;
-flex-wrap: wrap;
+
+}
+.contenedor-form h1{
+  text-align: center;
+  padding: 2%;
+
+
 }
 form{
 width:30%
 }
 .formulario{
 display: flex;
+display: flex;
+flex-wrap: wrap;
 }
 .entradas{
 width:100%;
@@ -204,7 +211,7 @@ background-color: #BBFFBB;
 background-color: #FFCCFF
 }
 button{
-margin-left: 10%;
+margin-left:12%;
 }
 .titulos{
 font-size:150%;
